@@ -1,0 +1,11 @@
+{
+    "created": "2026-08-05T18:42:12.754635",
+    "experiment_name": "banana_segmentation_full_v1_20260805_184146",
+    "configured_experiment_name": "banana_segmentation_full_v1",
+    "manager_version": "4.0.0",
+    "updated": "2026-08-05T19:45:03.843932",
+    "status": "completed",
+    "model": "yolo11m-seg",
+    "dataset": "research",
+    "configuration_fingerprint": "49770e7f3a2c8411264bdd7b7cc45c0358b4da3a3175340217bfaa0b0fd3b51f"
+}

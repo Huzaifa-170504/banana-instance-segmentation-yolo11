@@ -1,0 +1,265 @@
+{
+    "status": "READY_FOR_PACKAGE_BUILD",
+    "created_at": "2026-08-07T11:21:50.611364",
+    "project_root": "/content/drive/MyDrive/Segmentation_Project",
+    "author": "Huzaifa Waqar Butt",
+    "github_account": "Huzaifa-170504",
+    "recommended_repository_name": "banana-instance-segmentation-yolo11",
+    "folder_inventory": [
+        {
+            "folder": "01_Datasets",
+            "files": 17250,
+            "bytes": 672974570,
+            "size": "641.80 MB"
+        },
+        {
+            "folder": "02_Repositories",
+            "files": 1062,
+            "bytes": 78057221,
+            "size": "74.44 MB"
+        },
+        {
+            "folder": "03_Pretrained_Weights",
+            "files": 1,
+            "bytes": 45400152,
+            "size": "43.30 MB"
+        },
+        {
+            "folder": "04_Training_Runs",
+            "files": 54,
+            "bytes": 102815054,
+            "size": "98.05 MB"
+        },
+        {
+            "folder": "05_Logs",
+            "files": 14,
+            "bytes": 85546,
+            "size": "83.54 KB"
+        },
+        {
+            "folder": "06_Scripts",
+            "files": 12,
+            "bytes": 69618,
+            "size": "67.99 KB"
+        },
+        {
+            "folder": "07_Results",
+            "files": 46,
+            "bytes": 11255804,
+            "size": "10.73 MB"
+        },
+        {
+            "folder": "08_Visualizations",
+            "files": 8,
+            "bytes": 750395,
+            "size": "732.81 KB"
+        }
+    ],
+    "model": {
+        "best_path": "/content/drive/MyDrive/Segmentation_Project/04_Training_Runs/banana_segmentation_full_v1_20260805_184146/weights/best.pt",
+        "best_size_bytes": 45154934,
+        "best_size": "43.06 MB",
+        "best_sha256": "cde8ddf49e2c9cdd8a360a3da82822c24c1ddfbb36cd3667c572222f37286bba",
+        "last_size": "43.06 MB",
+        "normal_git_under_100mb": true,
+        "under_50mb_warning": true
+    },
+    "author_audit": {
+        "huzaifa_text_matches": [
+            {
+                "path": "AUTHOR.txt",
+                "count": 1
+            },
+            {
+                "path": "README.md",
+                "count": 2
+            },
+            {
+                "path": "05_Logs/author_update_report_20260805_222241.json",
+                "count": 1
+            },
+            {
+                "path": "05_Logs/author_restoration_20260807_111304.json",
+                "count": 1
+            }
+        ],
+        "anam_text_matches": [],
+        "huzaifa_office_matches": [],
+        "anam_office_matches": [],
+        "huzaifa_pdf_matches": [],
+        "anam_pdf_matches": []
+    },
+    "readme_files": [
+        "README.md"
+    ],
+    "documentation_files": [
+        "Banana_Instance_Segmentation_Complete_Documentation_Updated.pdf"
+    ],
+    "files_over_100mb": [],
+    "files_50_to_100mb": [
+        {
+            "path": "02_Repositories/ultralytics/.git/objects/pack/pack-48000d8e899bb1cf13cfb423f080939e52e139f4.pack",
+            "bytes": 64560689,
+            "size": "61.57 MB"
+        }
+    ],
+    "potential_secrets": [],
+    "absolute_drive_path_references": [
+        {
+            "path": "README.md",
+            "count": 12
+        },
+        {
+            "path": "05_Logs/dataset_verification.json",
+            "count": 633
+        },
+        {
+            "path": "05_Logs/research_dataset_verification.json",
+            "count": 1
+        },
+        {
+            "path": "05_Logs/project_finalization_report.json",
+            "count": 7
+        },
+        {
+            "path": "05_Logs/project_initialization.json",
+            "count": 2
+        },
+        {
+            "path": "05_Logs/folder_renumbering_report_20260805_215346.json",
+            "count": 30
+        },
+        {
+            "path": "05_Logs/author_update_report_20260805_222241.json",
+            "count": 5
+        },
+        {
+            "path": "05_Logs/author_restoration_20260807_111304.json",
+            "count": 6
+        },
+        {
+            "path": "06_Scripts/logger.py",
+            "count": 1
+        },
+        {
+            "path": "06_Scripts/verify_environment.py",
+            "count": 1
+        },
+        {
+            "path": "06_Scripts/bootstrap.py",
+            "count": 1
+        },
+        {
+            "path": "06_Scripts/config.py",
+            "count": 1
+        },
+        {
+            "path": "06_Scripts/initialize_project.py",
+            "count": 1
+        },
+        {
+            "path": "07_Results/training_config.json",
+            "count": 2
+        },
+        {
+            "path": "07_Results/final_metrics.json",
+            "count": 1
+        },
+        {
+            "path": "07_Results/experiment_summary.json",
+            "count": 2
+        },
+        {
+            "path": "07_Results/environment.json",
+            "count": 2
+        },
+        {
+            "path": "07_Results/dataset_info.json",
+            "count": 2
+        },
+        {
+            "path": "04_Training_Runs/banana_segmentation_full_v1_20260805_184146/metadata/artifacts.json",
+            "count": 10
+        },
+        {
+            "path": "04_Training_Runs/banana_segmentation_full_v1_20260805_184146/metadata/test_evaluation_20260805_195131.json",
+            "count": 14
+        },
+        {
+            "path": "04_Training_Runs/banana_segmentation_full_v1_20260805_184146/metadata/dataset_info.json",
+            "count": 2
+        },
+        {
+            "path": "04_Training_Runs/banana_segmentation_full_v1_20260805_184146/metadata/environment.json",
+            "count": 2
+        },
+        {
+            "path": "04_Training_Runs/banana_segmentation_full_v1_20260805_184146/metadata/experiment_summary.json",
+            "count": 2
+        },
+        {
+            "path": "04_Training_Runs/banana_segmentation_full_v1_20260805_184146/metadata/runtime_training_arguments.json",
+            "count": 2
+        },
+        {
+            "path": "04_Training_Runs/banana_segmentation_full_v1_20260805_184146/metadata/training_config.json",
+            "count": 2
+        },
+        {
+            "path": "04_Training_Runs/banana_segmentation_full_v1_20260805_184146/training/args.yaml",
+            "count": 4
+        },
+        {
+            "path": "07_Results/01_Final_Training/args.yaml",
+            "count": 4
+        },
+        {
+            "path": "07_Results/02_Final_Test_Evaluation/test_evaluation.json",
+            "count": 14
+        }
+    ],
+    "candidate_sections": {
+        "scripts": {
+            "path": "/content/drive/MyDrive/Segmentation_Project/06_Scripts",
+            "files": 12,
+            "bytes": 69618,
+            "size": "67.99 KB"
+        },
+        "results": {
+            "path": "/content/drive/MyDrive/Segmentation_Project/07_Results",
+            "files": 46,
+            "bytes": 11255804,
+            "size": "10.73 MB"
+        },
+        "visualizations": {
+            "path": "/content/drive/MyDrive/Segmentation_Project/08_Visualizations",
+            "files": 8,
+            "bytes": 750395,
+            "size": "732.81 KB"
+        }
+    },
+    "recommended_include": [
+        "README.md",
+        "AUTHOR.txt",
+        "LICENSE",
+        "requirements.txt",
+        "06_Scripts/ → publish as src/ or scripts/",
+        "Selected 07_Results/ metrics and plots",
+        "Selected 08_Visualizations/ examples",
+        "Updated project documentation",
+        "Final best.pt checkpoint if file-size policy permits",
+        "A clean dataset.yaml/class-definition example"
+    ],
+    "recommended_exclude": [
+        "01_Datasets/ full raw/prepared dataset",
+        "02_Repositories/ cloned Ultralytics source",
+        "03_Pretrained_Weights/ original pretrained checkpoint",
+        "04_Training_Runs/ complete internal training workspace",
+        "05_Logs/ internal audit and transaction logs",
+        "last.pt",
+        "__pycache__, .cache, temporary files",
+        "Absolute Google Drive paths",
+        "Secrets, tokens, credentials, Colab authentication data"
+    ],
+    "blocking_reasons": []
+}

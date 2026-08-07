@@ -1,0 +1,22 @@
+# Large/private project data
+01_Datasets/
+03_Pretrained_Weights/
+
+# Third-party Ultralytics source repository
+02_Repositories/
+
+# Python/cache files
+__pycache__/
+*.pyc
+*.pyo
+*.cache
+
+# Temporary files
+*.tmp
+*.temp
+
+# IDE / OS files
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store

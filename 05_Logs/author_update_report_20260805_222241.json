@@ -1,0 +1,43 @@
+{
+    "operation": "project_author_standardization",
+    "completed_at": "2026-08-05T22:23:56.641090",
+    "status": "PASSED",
+    "project_root": "/content/drive/MyDrive/Segmentation_Project",
+    "final_author": "Huzaifa Waqar Butt",
+    "training_started": false,
+    "model_weights_modified": false,
+    "dataset_modified": false,
+    "official_ultralytics_modified": false,
+    "text_updates": [
+        {
+            "path": "/content/drive/MyDrive/Segmentation_Project/README.md",
+            "replacements": 2
+        }
+    ],
+    "office_document_updates": [],
+    "pdf_updates": [],
+    "pdf_warnings": [
+        {
+            "path": "/content/drive/MyDrive/Segmentation_Project/Banana_Instance_Segmentation_Complete_Documentation_Updated.pdf",
+            "warning": "PyMuPDF is not installed. The PDF was not rewritten. Update its DOCX source and regenerate the PDF if its visible author name is outdated."
+        }
+    ],
+    "modified_file_count": 2,
+    "final_model": {
+        "best_path": "/content/drive/MyDrive/Segmentation_Project/04_Training_Runs/banana_segmentation_full_v1_20260805_184146/weights/best.pt",
+        "best_sha256": "cde8ddf49e2c9cdd8a360a3da82822c24c1ddfbb36cd3667c572222f37286bba",
+        "last_path": "/content/drive/MyDrive/Segmentation_Project/04_Training_Runs/banana_segmentation_full_v1_20260805_184146/weights/last.pt",
+        "last_sha256": "de3437ffe0516dde27bed420ea40891001292e087526657b502772ccada389cc"
+    },
+    "verification_checks": {
+        "best_model_exists": true,
+        "last_model_exists": true,
+        "best_model_hash_unchanged": true,
+        "last_model_hash_unchanged": true,
+        "official_repository_unchanged": true,
+        "dataset_directory_unchanged": true,
+        "all_project_scripts_compile": true,
+        "no_incorrect_author_names_remain": true,
+        "author_file_created": true
+    }
+}

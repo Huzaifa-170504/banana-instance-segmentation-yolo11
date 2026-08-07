@@ -1,0 +1,48 @@
+{
+    "operation": "restore_project_author",
+    "completed_at": "2026-08-07T11:14:49.783986",
+    "status": "PASSED",
+    "author": "Huzaifa Waqar Butt",
+    "project_root": "/content/drive/MyDrive/Segmentation_Project",
+    "training_started": false,
+    "model_weights_modified": false,
+    "dataset_modified": false,
+    "ultralytics_modified": false,
+    "text_updates": [
+        {
+            "path": "/content/drive/MyDrive/Segmentation_Project/05_Logs/author_update_report_20260805_222241.json",
+            "replacements": 1
+        },
+        {
+            "path": "/content/drive/MyDrive/Segmentation_Project/AUTHOR.txt",
+            "replacements": 1
+        },
+        {
+            "path": "/content/drive/MyDrive/Segmentation_Project/README.md",
+            "replacements": 2
+        }
+    ],
+    "office_updates": [],
+    "best_model": {
+        "path": "/content/drive/MyDrive/Segmentation_Project/04_Training_Runs/banana_segmentation_full_v1_20260805_184146/weights/best.pt",
+        "sha256": "cde8ddf49e2c9cdd8a360a3da82822c24c1ddfbb36cd3667c572222f37286bba"
+    },
+    "last_model": {
+        "path": "/content/drive/MyDrive/Segmentation_Project/04_Training_Runs/banana_segmentation_full_v1_20260805_184146/weights/last.pt",
+        "sha256": "de3437ffe0516dde27bed420ea40891001292e087526657b502772ccada389cc"
+    },
+    "verification": {
+        "best_model_exists": true,
+        "last_model_exists": true,
+        "best_model_hash_unchanged": true,
+        "last_model_hash_unchanged": true,
+        "test_report_matches_best_model": true,
+        "100_training_epochs_preserved": true,
+        "all_python_scripts_compile": true,
+        "no_anam_munir_text_references": true,
+        "no_anam_munir_office_references": true,
+        "author_file_is_correct": true,
+        "dataset_preserved": true,
+        "ultralytics_repository_preserved": true
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "timestamp": "2026-08-05 12:27:43.608560",
+    "python": "3.12.13",
+    "torch": "2.11.0+cu128",
+    "cuda": "12.8",
+    "cuda_available": true,
+    "gpu": "NVIDIA A100-SXM4-80GB",
+    "repository": "/content/drive/MyDrive/Segmentation_Project/02_Repositories/ultralytics",
+    "ultralytics_version": "8.4.115",
+    "ultralytics_location": "/content/drive/MyDrive/Segmentation_Project/02_Repositories/ultralytics/ultralytics/__init__.py"
+}

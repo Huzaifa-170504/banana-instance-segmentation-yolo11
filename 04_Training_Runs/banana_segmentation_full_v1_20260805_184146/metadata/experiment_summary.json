@@ -1,0 +1,21 @@
+{
+    "experiment": "banana_segmentation_full_v1_20260805_184146",
+    "status": "completed",
+    "completed": "2026-08-05T19:45:03.834824",
+    "elapsed_seconds": 3797.73735332489,
+    "elapsed_minutes": 63.296,
+    "best_weights": "/content/drive/MyDrive/Segmentation_Project/04_Training_Runs/banana_segmentation_full_v1_20260805_184146/weights/best.pt",
+    "last_weights": "/content/drive/MyDrive/Segmentation_Project/04_Training_Runs/banana_segmentation_full_v1_20260805_184146/weights/last.pt",
+    "training_metrics": {
+        "metrics/precision(B)": 0.9997605896464676,
+        "metrics/recall(B)": 1.0,
+        "metrics/mAP50(B)": 0.995,
+        "metrics/mAP50-95(B)": 0.8980905599849303,
+        "metrics/precision(M)": 0.9997605896464676,
+        "metrics/recall(M)": 1.0,
+        "metrics/mAP50(M)": 0.995,
+        "metrics/mAP50-95(M)": 0.8163276938851454,
+        "fitness": 1.7144182538700756
+    },
+    "validation_metrics": null
+}

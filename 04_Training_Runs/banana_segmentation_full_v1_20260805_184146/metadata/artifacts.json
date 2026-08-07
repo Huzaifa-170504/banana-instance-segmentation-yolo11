@@ -1,0 +1,81 @@
+{
+    "pretrained_weights": {
+        "path": "/content/drive/MyDrive/Segmentation_Project/03_Pretrained_Weights/yolo11m-seg.pt",
+        "exists": true,
+        "registered": "2026-08-05T18:42:12.948331",
+        "type": "file",
+        "size_bytes": 45400152,
+        "sha256": "eb9a06f63e2206c35d68d839b08c362429ebecf933ad54c1ad68b2fd001c17cf"
+    },
+    "training_output_directory": {
+        "path": "/content/drive/MyDrive/Segmentation_Project/04_Training_Runs/banana_segmentation_full_v1_20260805_184146/training",
+        "exists": true,
+        "registered": "2026-08-05T19:45:03.379170",
+        "type": "directory",
+        "file_count": 38
+    },
+    "best_weights": {
+        "path": "/content/drive/MyDrive/Segmentation_Project/04_Training_Runs/banana_segmentation_full_v1_20260805_184146/weights/best.pt",
+        "exists": true,
+        "registered": "2026-08-05T19:45:03.397696",
+        "type": "file",
+        "size_bytes": 45154934,
+        "sha256": "cde8ddf49e2c9cdd8a360a3da82822c24c1ddfbb36cd3667c572222f37286bba"
+    },
+    "last_weights": {
+        "path": "/content/drive/MyDrive/Segmentation_Project/04_Training_Runs/banana_segmentation_full_v1_20260805_184146/weights/last.pt",
+        "exists": true,
+        "registered": "2026-08-05T19:45:03.571227",
+        "type": "file",
+        "size_bytes": 45154934,
+        "sha256": "de3437ffe0516dde27bed420ea40891001292e087526657b502772ccada389cc"
+    },
+    "results_csv": {
+        "path": "/content/drive/MyDrive/Segmentation_Project/04_Training_Runs/banana_segmentation_full_v1_20260805_184146/training/results.csv",
+        "exists": true,
+        "registered": "2026-08-05T19:45:03.742886",
+        "type": "file",
+        "size_bytes": 16648,
+        "sha256": "9e305fb9051287709ff9f6a9265f59fe437695de6868ac9a8a0da78fac0f7fdf"
+    },
+    "results_plot": {
+        "path": "/content/drive/MyDrive/Segmentation_Project/04_Training_Runs/banana_segmentation_full_v1_20260805_184146/training/results.png",
+        "exists": true,
+        "registered": "2026-08-05T19:45:03.755971",
+        "type": "file",
+        "size_bytes": 425755,
+        "sha256": "ee05783e8e18ff039a0b4b42ee2bdcdb68b449f03d2be93e7717d629f9682d8b"
+    },
+    "training_arguments": {
+        "path": "/content/drive/MyDrive/Segmentation_Project/04_Training_Runs/banana_segmentation_full_v1_20260805_184146/training/args.yaml",
+        "exists": true,
+        "registered": "2026-08-05T19:45:03.770115",
+        "type": "file",
+        "size_bytes": 2004,
+        "sha256": "d045e3514d5967c89f56a722e5b92ab51ddf6bb1d7206b099a53308652aec6ea"
+    },
+    "confusion_matrix": {
+        "path": "/content/drive/MyDrive/Segmentation_Project/04_Training_Runs/banana_segmentation_full_v1_20260805_184146/training/confusion_matrix.png",
+        "exists": true,
+        "registered": "2026-08-05T19:45:03.796164",
+        "type": "file",
+        "size_bytes": 139413,
+        "sha256": "70f219540603cd4327a137076cecd72d900573dc1d1b15a9d6d15820ecd12022"
+    },
+    "normalized_confusion_matrix": {
+        "path": "/content/drive/MyDrive/Segmentation_Project/04_Training_Runs/banana_segmentation_full_v1_20260805_184146/training/confusion_matrix_normalized.png",
+        "exists": true,
+        "registered": "2026-08-05T19:45:03.809259",
+        "type": "file",
+        "size_bytes": 134612,
+        "sha256": "3efcb4b8eda7c38340e8d9524f4fb7a825a39c329706ea76b1dae3f728fa004f"
+    },
+    "labels_plot": {
+        "path": "/content/drive/MyDrive/Segmentation_Project/04_Training_Runs/banana_segmentation_full_v1_20260805_184146/training/labels.jpg",
+        "exists": true,
+        "registered": "2026-08-05T19:45:03.822371",
+        "type": "file",
+        "size_bytes": 141967,
+        "sha256": "ec4d0063d1975575352c57f989e2498c4f3c8e5723499111bdd39935979fab19"
+    }
+}

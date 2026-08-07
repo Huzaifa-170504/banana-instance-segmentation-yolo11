@@ -1,0 +1,136 @@
+{
+    "project": "Banana Instance Segmentation",
+    "finalized_at": "2026-08-05T21:42:49.997994",
+    "status": "FINALIZED",
+    "project_root": "/content/drive/MyDrive/Segmentation_Project",
+    "final_model": {
+        "best": "/content/drive/MyDrive/Segmentation_Project/04_Training_Runs/banana_segmentation_full_v1_20260805_184146/weights/best.pt",
+        "best_sha256": "cde8ddf49e2c9cdd8a360a3da82822c24c1ddfbb36cd3667c572222f37286bba",
+        "last": "/content/drive/MyDrive/Segmentation_Project/04_Training_Runs/banana_segmentation_full_v1_20260805_184146/weights/last.pt",
+        "last_sha256": "de3437ffe0516dde27bed420ea40891001292e087526657b502772ccada389cc",
+        "task": "segment",
+        "model": "YOLO11m-seg",
+        "ultralytics_version": "8.4.115"
+    },
+    "cleanup": {
+        "removed_item_count": 49,
+        "removed_size_bytes": 2083941164,
+        "removed_size_readable": "1.94 GB",
+        "experimental_artifacts_removed": true,
+        "non_final_training_runs_removed": true,
+        "placeholder_notebooks_removed": true,
+        "old_backups_removed": true,
+        "duplicate_intermediate_checkpoints_removed": true,
+        "cache_files_removed": true,
+        "empty_folders_removed": true
+    },
+    "final_results": {
+        "directory": "/content/drive/MyDrive/Segmentation_Project/07_Results",
+        "standard_test_report": "/content/drive/MyDrive/Segmentation_Project/07_Results/02_Final_Test_Evaluation/test_evaluation.json",
+        "training_results_csv": "/content/drive/MyDrive/Segmentation_Project/07_Results/01_Final_Training/results.csv",
+        "metrics": {
+            "project": "Banana Instance Segmentation",
+            "model": "YOLO11m-seg",
+            "checkpoint": "/content/drive/MyDrive/Segmentation_Project/04_Training_Runs/banana_segmentation_full_v1_20260805_184146/weights/best.pt",
+            "checkpoint_sha256": "cde8ddf49e2c9cdd8a360a3da82822c24c1ddfbb36cd3667c572222f37286bba",
+            "evaluation_split": "research test split",
+            "test_images": 359,
+            "bounding_boxes": {
+                "precision": 0.9999408115876864,
+                "recall": 1.0,
+                "mAP50": 0.995,
+                "mAP50_95": 0.911898839654641
+            },
+            "segmentation_masks": {
+                "precision": 0.9999408115876864,
+                "recall": 1.0,
+                "mAP50": 0.995,
+                "mAP50_95": 0.7896244506813684
+            },
+            "note": "These are internal test-split metrics. They are not a guarantee of equal real-world performance."
+        }
+    },
+    "datasets": {
+        "train": {
+            "images": 1795,
+            "labels": 1795,
+            "expected": 1795,
+            "passed": true
+        },
+        "val": {
+            "images": 718,
+            "labels": 718,
+            "expected": 718,
+            "passed": true
+        },
+        "test": {
+            "images": 359,
+            "labels": 359,
+            "expected": 359,
+            "passed": true
+        }
+    },
+    "verification_checks": {
+        "best_model_exists": true,
+        "last_model_exists": true,
+        "best_model_hash_unchanged": true,
+        "last_model_hash_unchanged": true,
+        "best_model_loads": true,
+        "model_task_is_segment": true,
+        "only_final_training_run_remains": true,
+        "one_hundred_epochs_recorded": true,
+        "final_results_directory_exists": true,
+        "final_metrics_exists": true,
+        "training_results_copied": true,
+        "test_evaluation_copied": true,
+        "all_remaining_scripts_compile": true,
+        "no_cache_files_remain": true,
+        "no_zero_byte_project_files": true,
+        "no_novelty_named_files_remain": true,
+        "no_novelty_text_references_remain": true,
+        "research_dataset_unchanged": true
+    },
+    "remaining_top_level_folders": {
+        "01_Datasets": {
+            "file_count": 17250,
+            "size_bytes": 672974570,
+            "size_readable": "641.80 MB"
+        },
+        "02_Repositories": {
+            "file_count": 1062,
+            "size_bytes": 78057221,
+            "size_readable": "74.44 MB"
+        },
+        "03_Pretrained_Weights": {
+            "file_count": 1,
+            "size_bytes": 45400152,
+            "size_readable": "43.30 MB"
+        },
+        "04_Training_Runs": {
+            "file_count": 54,
+            "size_bytes": 102815054,
+            "size_readable": "98.05 MB"
+        },
+        "05_Logs": {
+            "file_count": 10,
+            "size_bytes": 71411,
+            "size_readable": "69.74 KB"
+        },
+        "06_Scripts": {
+            "file_count": 12,
+            "size_bytes": 69618,
+            "size_readable": "67.99 KB"
+        },
+        "07_Results": {
+            "file_count": 46,
+            "size_bytes": 11255804,
+            "size_readable": "10.73 MB"
+        },
+        "08_Visualizations": {
+            "file_count": 8,
+            "size_bytes": 750395,
+            "size_readable": "732.81 KB"
+        }
+    },
+    "documentation_note": "Documentation and README were intentionally not created. They may be uploaded manually by the project owner."
+}

@@ -1,0 +1,30 @@
+{
+    "created": "2026-08-05T13:14:53.346187",
+    "notebooks": [
+        "01_Project_Setup.ipynb",
+        "02_Dataset_Import.ipynb",
+        "03_Dataset_Verification.ipynb",
+        "04_Dataset_Visualization.ipynb",
+        "05_Model_Selection.ipynb",
+        "06_Training.ipynb",
+        "07_Evaluation.ipynb",
+        "08_Inference.ipynb",
+        "09_Export.ipynb",
+        "10_Deployment.ipynb"
+    ],
+    "scripts": [
+        "__init__.py",
+        "config.py",
+        "logger.py",
+        "utils.py",
+        "initialize_project.py",
+        "verify_environment.py",
+        "verify_dataset.py",
+        "dataset_statistics.py",
+        "visualization.py",
+        "create_yaml.py",
+        "model_factory.py",
+        "trainer.py",
+        "evaluator.py"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "total_images": 2872,
+    "benchmark_split": {
+        "train": 2297,
+        "val": 287,
+        "test": 288
+    },
+    "research_split": {
+        "train": 1795,
+        "val": 718,
+        "test": 359
+    }
+}

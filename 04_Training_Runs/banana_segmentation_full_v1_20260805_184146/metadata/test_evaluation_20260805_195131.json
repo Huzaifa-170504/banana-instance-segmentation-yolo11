@@ -1,0 +1,97 @@
+{
+    "evaluation_type": "untouched_research_test_split",
+    "evaluated_at": "2026-08-05T19:51:43.608972",
+    "training_started": false,
+    "source_files_modified": false,
+    "run_directory": "/content/drive/MyDrive/Segmentation_Project/04_Training_Runs/banana_segmentation_full_v1_20260805_184146",
+    "evaluation_directory": "/content/drive/MyDrive/Segmentation_Project/04_Training_Runs/banana_segmentation_full_v1_20260805_184146/test_evaluation_20260805_195131",
+    "checkpoint": {
+        "path": "/content/drive/MyDrive/Segmentation_Project/04_Training_Runs/banana_segmentation_full_v1_20260805_184146/weights/best.pt",
+        "size_bytes": 45154934,
+        "sha256": "cde8ddf49e2c9cdd8a360a3da82822c24c1ddfbb36cd3667c572222f37286bba",
+        "task": "segment"
+    },
+    "dataset": {
+        "yaml": "/content/drive/MyDrive/Segmentation_Project/01_Datasets/Prepared_Dataset/research/dataset.yaml",
+        "test_images_directory": "/content/drive/MyDrive/Segmentation_Project/01_Datasets/Prepared_Dataset/research/images/test",
+        "test_labels_directory": "/content/drive/MyDrive/Segmentation_Project/01_Datasets/Prepared_Dataset/research/labels/test",
+        "test_image_count": 359,
+        "test_label_count": 359
+    },
+    "configuration": {
+        "model": "yolo11m-seg",
+        "image_size": 640,
+        "batch": 16,
+        "device": 0,
+        "workers": 2,
+        "configuration_fingerprint": "49770e7f3a2c8411264bdd7b7cc45c0358b4da3a3175340217bfaa0b0fd3b51f"
+    },
+    "overall_metrics": {
+        "metrics/precision(B)": 0.9999408115876864,
+        "metrics/recall(B)": 1.0,
+        "metrics/mAP50(B)": 0.995,
+        "metrics/mAP50-95(B)": 0.911898839654641,
+        "metrics/precision(M)": 0.9999408115876864,
+        "metrics/recall(M)": 1.0,
+        "metrics/mAP50(M)": 0.995,
+        "metrics/mAP50-95(M)": 0.7896244506813684,
+        "fitness": 1.7015232903360094
+    },
+    "per_class_metrics": {
+        "0": {
+            "class_name": "healthy_banana",
+            "box_precision": 0.9999559290873883,
+            "box_recall": 1.0,
+            "box_ap50": 0.995,
+            "box_map50_95": 0.911698299271111,
+            "mask_precision": 0.9999559290873883,
+            "mask_recall": 1.0,
+            "mask_ap50": 0.995,
+            "mask_map50_95": 0.792327224047374
+        },
+        "1": {
+            "class_name": "unhealthy_banana",
+            "box_precision": 0.9999256940879847,
+            "box_recall": 1.0,
+            "box_ap50": 0.995,
+            "box_map50_95": 0.9120993800381708,
+            "mask_precision": 0.9999256940879847,
+            "mask_recall": 1.0,
+            "mask_ap50": 0.995,
+            "mask_map50_95": 0.7869216773153632
+        }
+    },
+    "speed": {
+        "preprocess": 1.0155635042025086,
+        "inference": 3.7189917604544838,
+        "loss": 0.022658384420074302,
+        "postprocess": 2.692429752064438
+    },
+    "generated_plots": [
+        "/content/drive/MyDrive/Segmentation_Project/04_Training_Runs/banana_segmentation_full_v1_20260805_184146/test_evaluation_20260805_195131/confusion_matrix.png",
+        "/content/drive/MyDrive/Segmentation_Project/04_Training_Runs/banana_segmentation_full_v1_20260805_184146/test_evaluation_20260805_195131/confusion_matrix_normalized.png",
+        "/content/drive/MyDrive/Segmentation_Project/04_Training_Runs/banana_segmentation_full_v1_20260805_184146/test_evaluation_20260805_195131/BoxP_curve.png",
+        "/content/drive/MyDrive/Segmentation_Project/04_Training_Runs/banana_segmentation_full_v1_20260805_184146/test_evaluation_20260805_195131/MaskP_curve.png"
+    ],
+    "verification_checks": {
+        "Evaluation directory exists": true,
+        "Overall metrics returned": true,
+        "Box mAP50 recorded": true,
+        "Mask mAP50 recorded": true,
+        "Per-class metrics extracted": true,
+        "Evaluation plots generated": true,
+        "All source files unchanged": true,
+        "Persistent report saved": true
+    },
+    "source_integrity": {
+        "/content/drive/MyDrive/Segmentation_Project/06_Scripts/config.py": true,
+        "/content/drive/MyDrive/Segmentation_Project/06_Scripts/training_config.py": true,
+        "/content/drive/MyDrive/Segmentation_Project/06_Scripts/trainer.py": true,
+        "/content/drive/MyDrive/Segmentation_Project/06_Scripts/experiment_manager.py": true
+    },
+    "interpretation_limitations": [
+        "mAP50 is an object-detection and segmentation metric, not ordinary classification accuracy.",
+        "The prepared dataset originates from only eight original source images.",
+        "The research test split is useful for pipeline evaluation but cannot prove real-world generalization to genuinely new scenes."
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "dataset_type": "research",
+    "dataset_root": "/content/drive/MyDrive/Segmentation_Project/01_Datasets/Prepared_Dataset/research",
+    "train": {
+        "images": 1795,
+        "labels": 1795,
+        "missing_images": 0,
+        "missing_labels": 0,
+        "corrupt_images": 0,
+        "empty_labels": 0,
+        "invalid_labels": 0
+    },
+    "val": {
+        "images": 718,
+        "labels": 718,
+        "missing_images": 0,
+        "missing_labels": 0,
+        "corrupt_images": 0,
+        "empty_labels": 0,
+        "invalid_labels": 0
+    },
+    "test": {
+        "images": 359,
+        "labels": 359,
+        "missing_images": 0,
+        "missing_labels": 0,
+        "corrupt_images": 0,
+        "empty_labels": 0,
+        "invalid_labels": 0
+    },
+    "passed": true,
+    "errors": []
+}

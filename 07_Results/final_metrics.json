@@ -1,0 +1,21 @@
+{
+    "project": "Banana Instance Segmentation",
+    "model": "YOLO11m-seg",
+    "checkpoint": "/content/drive/MyDrive/Segmentation_Project/04_Training_Runs/banana_segmentation_full_v1_20260805_184146/weights/best.pt",
+    "checkpoint_sha256": "cde8ddf49e2c9cdd8a360a3da82822c24c1ddfbb36cd3667c572222f37286bba",
+    "evaluation_split": "research test split",
+    "test_images": 359,
+    "bounding_boxes": {
+        "precision": 0.9999408115876864,
+        "recall": 1.0,
+        "mAP50": 0.995,
+        "mAP50_95": 0.911898839654641
+    },
+    "segmentation_masks": {
+        "precision": 0.9999408115876864,
+        "recall": 1.0,
+        "mAP50": 0.995,
+        "mAP50_95": 0.7896244506813684
+    },
+    "note": "These are internal test-split metrics. They are not a guarantee of equal real-world performance."
+}

@@ -1,0 +1,23 @@
+{
+    "Python": "3.12.13",
+    "Executable": "/usr/bin/python3",
+    "Torch": "2.11.0+cu128",
+    "CUDA": "12.8",
+    "CUDA Available": true,
+    "GPU": "NVIDIA A100-SXM4-80GB",
+    "Packages": {
+        "ultralytics": "8.4.115",
+        "torch": "2.11.0+cu128",
+        "torchvision": "0.26.0+cu128",
+        "torchaudio": "2.11.0+cu128",
+        "opencv_python": "4.13.0",
+        "numpy": "2.0.2",
+        "PIL": "11.3.0",
+        "yaml": "6.0.3",
+        "matplotlib": "3.10.0",
+        "pandas": "2.2.2",
+        "scipy": "1.16.3",
+        "tqdm": "4.67.3",
+        "albumentations": "2.0.8"
+    }
+}

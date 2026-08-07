@@ -1,0 +1,25 @@
+{
+    "python": "3.12.13",
+    "platform": "Linux-6.6.122+-x86_64-with-glibc2.35",
+    "torch": "2.11.0+cu128",
+    "cuda_available": true,
+    "cuda_version": "12.8",
+    "gpu": "NVIDIA A100-SXM4-80GB",
+    "gpu_memory_bytes": 85094825984,
+    "ultralytics_version": "8.4.115",
+    "ultralytics_location": "/content/drive/MyDrive/Segmentation_Project/02_Repositories/ultralytics/ultralytics/__init__.py",
+    "verification_report": {
+        "python": "3.12.13",
+        "torch": "2.11.0+cu128",
+        "cuda": "12.8",
+        "cuda_available": true,
+        "gpu": "NVIDIA A100-SXM4-80GB",
+        "project_exists": true,
+        "repository_exists": true,
+        "dataset_exists": true,
+        "ultralytics_version": "8.4.115",
+        "ultralytics_location": "/content/drive/MyDrive/Segmentation_Project/02_Repositories/ultralytics/ultralytics/__init__.py",
+        "passed": true,
+        "errors": []
+    }
+}
